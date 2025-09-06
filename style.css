@@ -1,0 +1,480 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+#html,body{
+    position: absolute;
+    height: 100%;
+    width: 100%; 
+    
+}
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    font-size: 15px;
+    height: 40px;
+    width: 100%;
+    text-transform: capitalize;
+    background-color: rgba(64, 64, 68, 0.88);;
+}
+#nav a{
+    color:white;
+    text-decoration: none;
+}
+#nav1{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    background-color: white;
+}
+#nav1 h4{
+    position: absolute;
+    top: 50px;
+    left: 28%;
+    
+}
+#nav1 button{
+    position: absolute;
+    top: 52px;
+    left: 70%;
+    background: transparent;
+    border: none;
+    color: blue;
+
+}
+#hero {
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    background-size: cover;
+    background-color: black;
+    
+
+}
+#hero img{
+    position: absolute;
+    height: 60%;
+    width: 65%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#hero h1{
+    position: absolute;
+    font-family: gilroy;
+    font-size: 50px;
+    top: 5%;
+    left: 41%;
+    color: white;
+}
+#hero h2{
+    position: absolute;
+    font-size: 25px;
+    top: 16%;
+    left: 46%;
+    color: white;
+
+}
+#hero h3{
+    position: absolute;
+    top: 24%;
+    left: 43%;
+    color: #2997ff;
+    font-size: 23px;
+    font-weight: 300;
+}
+#hero h4{
+    position: absolute;
+    top: 24%;
+    left: 54%;
+    color:  #2997ff;
+    font-size: 23px;
+    font-weight: 300;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    
+}
+#page2 h1{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    text-align: center;
+    font-size: 60px;
+}
+#page2 h2{
+    position: absolute;
+    top: 111%;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+#page2 h3{
+    position: absolute;
+    top: 122%;
+    left: 47%;
+    transform: translate(-50%,-0%);
+    text-align: center;
+    font-size: 22px;
+    color: #2997ff;
+    font-weight: 500;
+}
+#page2 h4{
+    position: absolute;
+    top: 122.2%;
+    left: 54.5%;
+    transform: translate(-50%,-0%);
+    text-align: center;
+    font-size: 21px;
+    color: #2997ff;;
+    font-weight: 500;
+}
+#page2 img{
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#page3 h1{
+    position: absolute;
+    top: 1230px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: white;
+}
+#page3 h2{
+    position: absolute;
+    top: 1270px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    font-weight: 400;
+    color: red;
+    
+}
+#page3 h3{
+    position: absolute;
+    top: 1300px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: white;
+}
+#page3 h4{
+    position: absolute;
+    top: 180%;
+    left: 42.5%;
+    font-size: 22px;
+    color: #2997ff;
+    font-weight: 300;
+}
+#page3 h5{
+    position: absolute;
+    top: 180%;
+    left: 54%;
+    font-size: 23px;
+    color: #2997ff;
+    font-weight: 300;
+}
+#page3 img{
+    position: absolute;
+    /* display: block; */
+    height: auto;
+    width: 100%;
+    top: 220%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+}
+#page4{
+    height: 100%;
+    width: 100%;
+}
+#box{
+    position: absolute;
+    height: 150%;
+    width: 100%;
+    background-color: white;
+    top: 250%;
+}
+#box h1{
+    position: absolute;
+    right: 10%;
+    
+}
+#cube{
+    height: 49%;
+    width: 50%;
+    background-color: white;
+    margin-top: 10px;
+}
+#cube h1{
+    position: absolute;
+    color: black;
+    top: 5%;
+    left: 20%;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+#cube h2{
+    position: absolute;
+    color: black;
+    top: 10%;
+    left: 13%;
+    font-weight: 500;
+}
+#cube a{
+    position: absolute;
+    color: royalblue;
+    top: 14%;
+    left: 16%;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#cube img{
+    position: absolute;
+    height: 30%;
+    width: 50%;
+    top: 16%;
+}
+
+#cube2{
+    height: 49%;
+    width: 50%;
+    background-color:white;
+    margin-top: 10px;
+    
+}
+#cube2 h1{
+    position: absolute;
+    top: 52%;
+    left: 20%;
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+}
+#cube2 h2{
+    position: absolute;
+    top: 57%;
+    left: 13%;
+    color: black;
+    font-weight: 500;
+    font-size: 27px;
+    text-transform: capitalize;
+}
+#cube2 a{
+    position: absolute;
+    top: 61%;
+    left: 18%;
+    color: #2997ff;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#cube2 h3{
+    position: absolute;
+    top: 61%;
+    left: 27%;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #2997ff;
+    font-weight: 400;
+}
+#cube2 img{
+    position: absolute;
+    height: 30%;
+    width: 25%;
+    left: 12%;
+    bottom: 3%;
+
+}
+#cube3{
+    position: absolute;
+    height: 49%;
+    width: 49%;
+    left: 50%;
+    background-color: black;
+    margin: 10px;
+    
+}
+#cube3 h1{
+    position: absolute;
+    bottom: 25%;
+    left: 36.5%;
+    color: white;
+    font-size: 42px;
+}
+#cube3 h2{
+    position: absolute;
+    bottom: 12%;
+    left: 24%;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+#cube3 img{
+    position: absolute;
+    height: 55%;
+    width: 80%;
+    left: 10%;
+    top: 10%;
+    
+}
+#cube4 {
+    position:absolute;
+    right: 0%;
+    top: 50%;
+    height: 49%;
+    width: 49.4%;
+    background-color: black;
+    margin-top: 10px;
+}
+#cube4 h1{
+    position: absolute;
+    top: 8%;
+    left: 35%;
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#cube4 h2{
+    position: absolute;
+    top: 20%;
+    left: 26%;
+    color: whitesmoke;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+#cube4 h3{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: #2997ff;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+#cube4 h4{
+    position: absolute;
+    top: 30%;
+    left: 57%;
+    color: #2997ff;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: large;
+}
+#cube4 img{
+    position: absolute;
+    height: 65%;
+    width: 70%;
+    top: 35%;
+    left: 19%;
+
+}
+#page5{
+    height: 40%;
+    width: 100%;
+    background-color: rgba(231, 201, 201, 0.753);
+    margin-top: 12px;
+    
+}
+#page5 h1{
+    position: absolute;
+    bottom: -12%;
+    left: 13%;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 600;
+    
+
+}
+#page5 h2{
+    position: absolute;
+    bottom: -18%;
+    left: 16.5%;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+}
+#page5 a{
+        position: absolute;
+        bottom: -22%;
+        left: 18%;
+        text-transform: capitalize;
+}
+#page5 img{
+    position: absolute;
+    height: 20%;
+    width: 40%;
+    left: 55%;
+    top: 120%;
+    object-fit: cover;
+
+}
+#page5 h3{
+    position: absolute;
+    bottom: -7%;
+    left: 69%;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 700;
+}
+#page5 h4{
+    position: absolute;
+    bottom: -9.6%;
+    left: 73%;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(233, 71, 12);
+}
+#page5 h5{
+    position: absolute;
+    font-family: gilroy;
+    bottom: -13%;
+    left: 67.5%;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+#page5 h6{
+    position: absolute;
+    bottom: -17%;
+    left: 73.5%;
+    font-size: 23px;
+    text-transform: capitalize;
+    color: #2997ff;
+    font-weight: 500;
+    
+}
+
+
+
+
+
